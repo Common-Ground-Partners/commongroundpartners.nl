@@ -1,0 +1,40 @@
+---
+---
+$color--bg: white;
+$color--text: #111;
+$font: Arial;
+$font-weight: 100;
+$wrapper-width: 800px;
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $color--bg;
+    color: $color--text;
+    font-family: $font;
+    font-weight: $font-weight;
+}
+
+section {
+    max-width: $wrapper-width;
+    margin: auto;
+    padding: 0 40px;
+}
+
+header {
+    text-align: center;
+
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+footer {
+    background: $color--text;
+    color: $color--bg;
+    min-height: 200px;
+    padding-top: 20px;
+}

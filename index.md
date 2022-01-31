@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: 404
 ---
 # Common Ground Partners
 
